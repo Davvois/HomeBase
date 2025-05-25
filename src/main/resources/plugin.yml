@@ -1,0 +1,17 @@
+name: HomeBase
+version: '${project.version}'
+main: davvo.homebase.HomeBase
+api-version: '1.21'
+commands:
+  home:
+    description: Teleports the player to his home.
+    usage: /home (home-name)
+  sethome:
+    description: Sets the player's home.
+    usage: /sethome (home-name)
+  delhome:
+    description: Deletes the player's home.
+    usage: /delhome (home-name)
+  homes:
+    description: Opens home GUI.
+    usage: /homes
