@@ -18,9 +18,10 @@ public class HomeGUIClickListener implements Listener {
 
         if (event.getView().getTitle().equals(Messages.defaultGuiName)){
             if (event.getCursor().getType().equals(Material.PLAYER_HEAD)){
-                player.performCommand("home manna");
+                player.performCommand("home");
             }
             event.setCancelled(true);
         }
     }
 }
+
